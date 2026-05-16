@@ -3,6 +3,8 @@
 Web-App zum **Registrieren**, **Anbieten** und **Suchen** von Fahrgemeinschaften.  
 Technologie: **React + Vite + TypeScript** (Frontend) und **Supabase** (Auth + PostgreSQL).
 
+Entwicklungsgeschichte und Chat-Zusammenfassung: [ENTWICKLUNG.md](ENTWICKLUNG.md)
+
 ## Voraussetzungen
 
 - [Node.js LTS](https://nodejs.org/) (inkl. `npm`)
