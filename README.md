@@ -71,6 +71,10 @@ App im Browser: `http://localhost:5173`
 
 Der Workflow setzt `VITE_BASE_PATH` automatisch auf `/<repo-name>/`.
 
+**Wichtig (Reihenfolge):** Zuerst unter **Pages** die Quelle **GitHub Actions** wählen und speichern, danach Secrets anlegen, dann den Workflow erneut starten (**Actions** → **Deploy to GitHub Pages** → **Run workflow**).
+
+**Fehler „Failed to create deployment (status: 404)“:** GitHub Pages ist noch nicht aktiv oder die Quelle ist noch „Deploy from a branch“. Lösung: [Pages-Einstellungen](https://github.com/AndreasReim/Fahrgemeinschaft-Website/settings/pages) → **Build and deployment** → **Source:** **GitHub Actions** → speichern → Workflow neu ausführen.
+
 ## Projektstruktur
 
 ```
